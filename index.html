@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Mini Project</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Kalkulator BMI</h1>
+        </div>
+
+        <div class="body">
+
+            <form onsubmit="hasil(); return false">
+                <div class="usia">
+                    <label>Usia (Tahun)</label>
+                    <input required id="age" type="number" placeholder="Masukan Usia Anda"/>
+                </div>
+
+                <div class="jenis-kelamin">
+                    <p>Jenis Kelamin</p>
+                    <div class="gender">
+                        <input id="male" type="radio" name="jenis-kelamin" value="Pria" />
+                        <label>Pria</label>
+                        <input id="famale" type="radio" name="jenis-kelamin" value="Wanita" />
+                        <label>Wanita</label>
+                    </div>
+                </div>
+
+                <div class="berat-badan">
+                    <label>Berat Badan (Kg)</label>
+                    <input required id="weight" type="number" placeholder="Tentukan Berat Badan Anda"/>
+                </div>
+
+                <div class="tinggi-badan">
+                    <label>Tinggi Badan (cm)</label>
+                    <input required id="height" type="number" placeholder="Tentukan Tinggi Badan Anda"/>
+                </div>
+
+                <div class="submit">
+                    <button type="submit" class="hitung">Hitung BMI</button>
+                    <button class="reset">Reset</button>
+                </div>
+            </form>
+
+            <div class="hasil">
+            </div>
+            
+        </div>
+
+    </div>
+
+<script src="./js/index.js"></script>
+
+</body>
+</html>

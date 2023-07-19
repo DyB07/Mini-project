@@ -1,0 +1,124 @@
+body{
+    background-color: #F45050;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-family: 'Poppins';
+    color: white;
+}
+
+input{
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: none;
+}
+
+.body{
+    background-color: #F9D949;
+    width: 400px;
+    padding: 20px;
+    color: black;
+    font-family: sans-serif;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.usia{
+    display: flex;
+    flex-direction: column;
+}
+.usia label{
+    margin-bottom: 10px;
+}
+.usia input{
+    height: 20px;
+}
+
+.gender{
+    padding-top: 10px;
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
+.berat-badan{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.berat-badan label{
+    margin-bottom: 10px;
+}
+.berat-badan input{
+    height: 20px;
+}
+
+.tinggi-badan{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+.tinggi-badan label{
+    margin-bottom: 10px;
+}
+.tinggi-badan input{
+    height: 20px;
+}
+
+.hitung{
+    margin-right: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid green;
+}
+
+.reset{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid red;
+}
+
+.hasil{
+    margin-top: 20px;
+    background-color: #4e4c66;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: none;
+}
